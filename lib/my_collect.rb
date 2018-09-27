@@ -5,7 +5,7 @@ def my_collect(array) #argument of an array
     collection << yield(array[i]) # move original array item to new array
     i += 1 # move up counter / array index
   end
-  collection
+  collection # return new array
 end
 
 
